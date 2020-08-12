@@ -1,0 +1,22 @@
+.container {
+    width:900px;
+    margin:0px auto;
+    padding-top:50px;
+}
+table {
+    width:100%;
+    
+}
+.table-block {
+    box-shadow: 2px 4px 7px gray;
+    padding: 10px;
+}
+.add-user-btn{
+    float: right;
+    margin: 10px;
+}
+table tr th, table tr td{
+    border-bottom: 1px solid gray;
+    padding:10px 0px;
+    text-align: left;
+}

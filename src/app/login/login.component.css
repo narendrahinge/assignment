@@ -1,0 +1,29 @@
+body {
+    background-color: #ededed !important;
+}
+.container {
+    width: 900px;
+    margin:0px auto;
+    padding-top: 70px;
+}
+.example-form-login {
+    width:400px;
+    margin:10px auto;
+    margin-top:50px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 2px 5px 7px gray;;
+}
+.mat-form-field {
+    width:100%;
+}
+.heading {
+    font-size: 20px;
+}
+.er-user {
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    font-size: 9px;
+    color: red;
+}

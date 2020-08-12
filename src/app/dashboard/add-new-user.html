@@ -1,0 +1,27 @@
+<div class="panel">
+    <h1 mat-dialog-title>Add New User</h1>
+<div mat-dialog-content>
+    <div class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter your name" [(ngModel)]="data.name">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Phone No</mat-label>
+            <input matInput placeholder="Enter your Phone no" [(ngModel)]= "data.phoneno">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Address</mat-label>
+            <textarea matInput placeholder="Enter your Address" [(ngModel)]="data.address"></textarea>
+        </mat-form-field>
+    </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial >Add</button>
+</div>
+
+
+    
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="example-form-login">
+        <h1 class="heading">Sign in</h1>
+        <mat-form-field class="example-full-width">
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="Enter your username" #username [(ngModel)]="userData.username" #username (keypress)="checkusernameis()" required>
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" placeholder="Enter your Password" [(ngModel)]="userData.password" (keypress)="checkuserpadd()" required>
+          </mat-form-field>
+
+          <button mat-button mat-raised-button color="primary" (click)="login()" #loginbtn>Login</button>
+
+        </div>
+</div>
